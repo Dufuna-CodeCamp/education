@@ -109,3 +109,32 @@ button:hover{
   margin-top: 40px;
   text-align: center;
 }
+/**Style for managng class rooms**/
+#page-heading{
+	text-align: center;
+	color: #2bab0d;
+}
+.add-form {
+	margin-left: 60px;
+}
+#className{
+	height: 30px;
+	margin-bottom: 10px;
+  }
+#addButton {
+	padding: 5px;
+	height: 30px;
+	background-color:lightgray;
+	border-style: none;
+	font-weight: bold;
+}
+#classRooms{
+	
+	margin-top: 30px ;
+	margin-left: 60px;
+	color: black;
+}
+#addedRooms{
+	margin-top: 10px ;
+	margin-left: 60px;
+}
