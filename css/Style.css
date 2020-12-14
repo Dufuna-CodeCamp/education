@@ -1,0 +1,96 @@
+*{  
+  padding:0;
+  margin: 0;
+  font-family:montserrat;
+  font-family:Century Gothic;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.logo{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;	
+}
+span{
+	color: lightgreen;
+	
+}
+ 
+.container{
+	width: 80%
+	margin: auto;
+	overflow: hidden;
+} 
+#main-header{
+	background-color:#2bab0d; 
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#navbar{
+	background-color:#2bab0d;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 10px;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px
+	padding-right 15px
+}
+
+#navbar li{ 
+
+  background: #2bab0d;
+  border-radius: 4px;
+  width: 100px;
+}
+
+#showcase{
+	background-image: url('../images/Student-Life.jpg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+#showcase h1{
+	color: #2bab0d;
+	font-size: 25px;
+	line-height: 1.3em;
+	padding-top: 250px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #2bab0d;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 500px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+}
+
