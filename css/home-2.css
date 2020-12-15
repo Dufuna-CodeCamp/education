@@ -84,20 +84,6 @@ span{
 	margin: 10px auto 60px;
 	font-weight: 100;
 }
-.sub-menu-1{
-	display: none;	
-}
-.menu-bar ul li:hover .sub-menu-1{
-	display: block;
-	position: absolute;
-	background: rgb(0,100,0);
-	margin-top: 15px;
-	margin-left: -15px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul{
-	display: block;
-	margin: 10px;
-}
 button{
 	width: 200px;
 	padding: 15px 0;
@@ -122,6 +108,7 @@ button:hover{
   font-size: 14px;
   margin-top: 40px;
   text-align: center;
+<<<<<<< HEAD
 }
 /**Style for managng class rooms**/
 #page-heading{
